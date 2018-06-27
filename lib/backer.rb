@@ -13,6 +13,10 @@ class Backer
     @backed_projects << project, backer
   end
 
+  def self.all
+    @@all
+  end
+
 
 
 
